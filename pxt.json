@@ -1,0 +1,36 @@
+{
+    "name": "Duck House: Robbed of Sleep",
+    "version": "0.0.0",
+    "dependencies": {
+        "device": "*",
+        "arcade-timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "browser-events-copy": "github:rando-muser/browser-events-copy#master",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "color-coded-tilemap": "*"
+    },
+    "files": [
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "testDependencies": {},
+    "targetVersions": {
+        "branch": "v2.0.62",
+        "tag": "v2.0.62",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/78fef54853ad3c71c6dcf0886b1083107d9abad2",
+        "target": "2.0.63",
+        "pxt": "11.3.66",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
